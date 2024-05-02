@@ -1,0 +1,7 @@
+max_page_sharing=256
+merge_across_nodes=1
+pages_to_scan=100
+sleep_millisecs=20
+run=1
+stable_node_chains_prune_millisecs=2000
+use_zero_pages=0
