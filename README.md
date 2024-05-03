@@ -28,3 +28,4 @@ Step 3:
 Step 4: 
 To generate data use data-gen.sh 
 
+Step 5: To initiate the VM, install the VM using `https://wiki.archlinux.org/title/libvirt#Installation`
