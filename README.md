@@ -18,14 +18,19 @@ Step 1: Install Dependencies
 Note: Sysbench - multiple table were created inside each vm and read write query workload was run - for multiple VMs
 
 Step 2: To Monitor run monitor.sh 
+
 `Usage: ./monitor.sh <num_process> <num_pages_per_process> <number_of_rounds> <round_wait_time> <pages_to_scan>`
 
 The spawning and monitoring happens with this step, but if you want to spawn individually use spawner as step 3
 
 Step 3: 
+
 `Usage: ./spawner.sh <num_process> <num_pages_per_process> <number_of_rounds> <round_wait_time> `
 
 Step 4: 
+
 To generate data use data-gen.sh 
 
-Step 5: To initiate the VM, install the VM using `https://wiki.archlinux.org/title/libvirt#Installation`
+Step 5: 
+
+To initiate the VM, install the VM using `https://wiki.archlinux.org/title/libvirt#Installation`
